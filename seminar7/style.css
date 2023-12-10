@@ -1,0 +1,32 @@
+.btnPan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 500px;
+    background-color: rgb(108, 94, 94);
+}
+
+.btnPlay {
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-image: url(assets/play.png);
+    cursor: pointer;
+}
+
+.btnPause {
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-image: url(assets/pause.png);
+    cursor: pointer;
+}
+.videoBox{
+    max-width: 500px;
+}
+.currentTimeField {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
